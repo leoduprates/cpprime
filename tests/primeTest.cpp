@@ -40,6 +40,27 @@ TEST(PrimeTest, OneIsCompositeMumber)
     ASSERT_FALSE(result);
 }
 
+TEST(PrimeTest, NegativeNumber)
+{
+    Prime prime;
+    bool result = prime.isPrime(-1);
+    ASSERT_FALSE(result);
+}
+
+TEST(PrimeTest, DoubleCompositeNumber)
+{
+    Prime prime;
+    bool result = prime.isPrime(0.2);
+    ASSERT_FALSE(result);
+}
+
+TEST(PrimeTest, DoublePrimeNumber)
+{
+    Prime prime;
+    bool result = prime.isPrime(3.2);
+    ASSERT_TRUE(result);
+}
+
 TEST(PrimeTest, ShouldReturnFourResultsWithPrimeAndCompositeMumbers)
 {
     Prime prime;
