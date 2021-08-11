@@ -68,7 +68,7 @@ $ cmake -S . -B build
 $ docker build --tag=leoduprates/cpprime .
 ```
 
-1\. Run Container:
+2\. Run Container:
 
 ```shell
 $ docker run -it --rm leoduprates/cpprime:latest
