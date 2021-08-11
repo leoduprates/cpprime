@@ -78,5 +78,4 @@ $ docker run -it --rm leoduprates/cpprime:latest
 
 - [GoogleTest User’s Guide](https://google.github.io/googletest/)
 - [CMake Tutorial](https://cmake.org/cmake/help/v3.21/guide/tutorial/A%20Basic%20Starting%20Point.html)
-- [Docker](https://docs.docker.com/engine/reference/builder/)
 - [Dockerfile](https://docs.docker.com/engine/reference/builder/)
