@@ -5,7 +5,7 @@
 
 # CPPrime
 
-C++ sample application with unit tests developed on [GoogleTest](https://github.com/google/googletest).
+C++ sample application with unit tests developed with [GoogleTest](https://github.com/google/googletest).
 
 ## Built With
 
