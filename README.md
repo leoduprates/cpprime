@@ -5,7 +5,7 @@
 
 # CPPrime
 
-Simple application developed in C++ so that when the user provides a number as input, the application responds with a Boolean vector, being True for prime numbers and False for composite numbers.
+C++ sample application with unit tests developed on [GoogleTest](https://github.com/google/googletest).
 
 ## Built With
 
